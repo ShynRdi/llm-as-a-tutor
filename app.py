@@ -13,7 +13,7 @@ if not api_key:
 # Initialize Groq client
 client = Groq(api_key=api_key)
 
-st.title("LLM as an English Language Teacher 🤖")
+st.title("LLM as an English Tutor Assistant 🤖")
 
 # Initialize chat history
 if "messages" not in st.session_state:
